@@ -1,5 +1,6 @@
 # Local Codex/plugin workspace state
 .codex/
+.playwright-mcp/
 
 # Generated/system clutter
 Thumbs.db
@@ -14,4 +15,3 @@ Desktop.ini
 *.mov
 *.avi
 *.mkv
-
