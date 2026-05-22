@@ -14,7 +14,6 @@
 |---|---|---|---|---|
 | 等待甲方 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 第 8 集 85 个 cut 初版已完成，当前只等甲方反馈。 | 甲方反馈已收到，并同步给项目负责人。 |
 | 等待甲方 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分。 | 资产收到并放入项目资产目录。 |
-| 已完成 | [#4 梳妆台小镜子组合](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/4) | 我 | 已确认不单独制作，使用现有孔雀镜子/随镜头生成。 | 资产设定表和 TODO 已更新。 |
 | 未开始，依赖 #2 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 只有收到甲方反馈后才开始，把意见拆到第 8 集 85 个 cut 的具体镜头。 | 单集镜头表、项目总表、TODO 均完成更新。 |
 | 未开始，依赖 #5 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 只有完成反馈拆解并分配镜头后才开始。 | 所有待修镜头状态更新为通过或待合成。 |
 | 未开始，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
@@ -23,7 +22,7 @@
 
 | 成员 | 负责内容 |
 |---|---|
-| 吴 | 主责剧本转视频生成提示词；次责镜头生成。 |
+| 吴 | 剧本转视频生成提示词；镜头生成。 |
 | 我 | 镜头生成；项目进度和流程管理；反馈后拆解修改任务。 |
 | 熊 | 镜头生成；甲方沟通；同步反馈和素材。 |
 | Esdeath | 后期剪辑合成。 |
