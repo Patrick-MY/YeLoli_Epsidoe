@@ -3,16 +3,21 @@
 用途：在 GitHub 仓库中追踪项目任务、负责人、状态和下一步。  
 当前重点：第 8 集测试集《旧玩具也想我》。
 
+## 当前状态总览
+
+第 8 集全片初版已经完成，目前核心状态是：**等待甲方反馈**。  
+反馈回来之前，不进入返修、修改版镜头生成、修改版剪辑合成。
+
 ## 看板状态
 
 | 状态 | 任务 | 负责人 | 说明 | 完成标准 |
 |---|---|---|---|---|
-| 等待反馈 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 第 8 集 85 个 cut 初版已完成，等待甲方反馈。 | 甲方反馈已收到，并同步给项目负责人。 |
-| 等待甲方提供 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分。 | 资产收到并放入项目资产目录。 |
-| 待确认 | [#4 梳妆台小镜子组合](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/4) | 我 | 现有孔雀镜子可用，但提示词 H2 有“梳妆台上的小镜子”要求。 | 确认是否单独制作，并更新资产设定表。 |
-| 待反馈后处理 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 反馈回来后，把意见拆到第 8 集 85 个 cut 的具体镜头。 | 单集镜头表、项目总表、TODO 均完成更新。 |
-| 待反馈后处理 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 按反馈分配需要重生或调整的镜头。 | 所有待修镜头状态更新为通过或待合成。 |
-| 待反馈后处理 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 待修改镜头完成后进入后期剪辑合成。 | 修改版成片输出完成。 |
+| 等待甲方 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 第 8 集 85 个 cut 初版已完成，当前只等甲方反馈。 | 甲方反馈已收到，并同步给项目负责人。 |
+| 等待甲方 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分。 | 资产收到并放入项目资产目录。 |
+| 当前可处理 | [#4 梳妆台小镜子组合](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/4) | 我 | 现有孔雀镜子可用，但提示词 H2 有“梳妆台上的小镜子”要求。 | 确认是否单独制作，并更新资产设定表。 |
+| 未开始，依赖 #2 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 只有收到甲方反馈后才开始，把意见拆到第 8 集 85 个 cut 的具体镜头。 | 单集镜头表、项目总表、TODO 均完成更新。 |
+| 未开始，依赖 #5 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 只有完成反馈拆解并分配镜头后才开始。 | 所有待修镜头状态更新为通过或待合成。 |
+| 未开始，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
 
 ## 角色分工
 
