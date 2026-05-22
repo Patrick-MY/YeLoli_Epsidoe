@@ -1,0 +1,17 @@
+# Local Codex/plugin workspace state
+.codex/
+
+# Generated/system clutter
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+~$*
+
+# Video outputs and references are too large for normal GitHub commits.
+# Use Git LFS or external storage if these need versioning later.
+*.mp4
+*.mov
+*.avi
+*.mkv
+
