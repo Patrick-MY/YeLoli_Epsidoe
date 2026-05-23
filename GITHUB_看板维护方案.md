@@ -181,4 +181,5 @@ GitHub 原生 Project Workflow 对“按标签自动改 Status”的能力有限
 5. **核对资产 Issue 标签与资产表状态是否一致（按上方映射表）。**
 6. 让 Project Workflow 自动同步看板。
 7. 检查 Project Board 是否与 Issue 状态一致。
-8. 向用户汇报�
+
+### Git 同步铁�
