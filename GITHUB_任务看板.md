@@ -8,52 +8,39 @@
 ## 当前状态总览
 
 第 8 集全片初版已经完成，并已收到 2026-05-23 甲方一审反馈。  
-一审反馈已拆解到镜头级：59 个 cut 为 `反馈后待修`，26 个 cut 为 `待确认`。当前核心状态是：**等待熊同步甲方确认问题，并由我方根据甲方参考补齐旧玩具单体资产设定**。
+一审反馈已拆解到镜头级：59 个 cut 为 `反馈后待修`，26 个 cut 为 `待确认`。
 
-## 看板状态
+2026-05-24 已通过 GitHub API 批量创建 **33 个 Issue**（#68-#100），覆盖第 8 集所有待办资产和段落返修任务。旧 Issue #2-#8 中，#2/#5 已完成，#3/#6 已被新 Issue 覆盖，待关闭。
 
-| 状态 | 任务 | 负责人 | 说明 | 完成标准 |
+## 14 个资产 Issue（#68-#81）
+
+| Issue | 资产 | 状态 | 标签 |
+|---|---|---|---|
+| [#68](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/68) | 时钟女孩角色设定（CHAR-006） | 待甲方审核 | 资产、待审核 |
+| [#69](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/69) | 紫色章鱼毛绒玩具（PROP-001） | 待甲方审核 | 资产、待审核 |
+| [#70](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/70) | 白色独角兽毛绒玩具（PROP-002） | 待甲方审核 | 资产、待审核 |
+| [#71](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/71) | 旧星星宝匣（PROP-003） | 待甲方审核 | 资产、待审核 |
+| [#101](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/101) | 商场场景全局设定（SCN-001/002/003） | 待甲方审核 | 资产、待审核 |
+| [#75](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/75) | 思思家庭院设定（SCN-007） | 待制作/待甲方审核 | 资产、进行中 |
+| [#76](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/76) | 糖设定（PROP-006） | 待甲方审核 | 资产、待审核 |
+| [#77](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/77) | 孔雀镜子多角度设定（PROP-008） | 待甲方审核 | 资产、待审核 |
+| [#78](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/78) | 灵公主娃娃设定（PROP-014） | 待甲方审核 | 资产、待审核 |
+| [#79](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/79) | 孔雀法杖设定（PROP-015） | 待甲方审核 | 资产、待审核 |
+| [#80](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/80) | 旧玩具单体：小熊、小兔、布娃娃（PROP-020） | 待制作/待甲方审核 | 资产、进行中 |
+| [#81](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/81) | 时钟女孩手表设定（PROP-024） | 待甲方审核 | 资产、待审核 |
+
+## 19 个段落返修 Issue（#82-#100）
+
+| Issue | 段落 | Cuts | 修改等级 | 标签 |
 |---|---|---|---|---|
-| 已完成 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 2026-05-23 已收到一审反馈，已整理为一审总反馈文档。 | 甲方反馈已收到，并同步给项目负责人。 |
-| 待开始 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 我 / 熊 | 甲方不会提供旧玩具单体资产，改为我方根据甲方参考和现有旧玩具群像补齐小熊、小兔、布娃娃设定；完成后由熊提交甲方审核。 | 单体设定制作完成、放入项目资产目录，并经甲方审核通过。 |
-| 已完成 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 已根据一审总反馈，把意见拆到第 8 集 85 个 cut：59 个待修，26 个待确认。 | 单集镜头表、项目总表、TODO 均完成更新。 |
-| 待开始，依赖 #8 / #3 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 等甲方确认问题与关键资产状态明确后开始。 | 所有待修镜头状态更新为通过或待合成。 |
-| 待开始，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
-| 待审核 / 待确认 | [#8 一审待甲方确认问题同步](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/8) | 熊 | 26 个待确认 cut 已整理为问题表，等待熊同步甲方并回传结果。 | 收到甲方明确答复，并写回镜头制作进度表。 |
-
-## 看板维护规则
-
-- 新任务优先建 GitHub Issue，不直接手动拖 Project Board。
-- Project Board 只作为 Issue 状态的展示层。
-- 不需要制作的资产不放入看板，只记录在 [资产设定表.md](E:/Work/叶罗丽/叶罗丽好朋友/资产设定表.md)。
-- 甲方提供资料只保存在本地 `0.甲方提供资料/`，不得上传 GitHub。
-- 每次更新进度后，需要同步更新本文件、`PROJECT_PROGRESS.md` 和相关制作表。
-
-## 角色分工
-
-| 成员 | 负责内容 |
-|---|---|
-| 吴 | 剧本转视频生成提示词；镜头生成。 |
-| 我 | 镜头生成；项目进度和流程管理；反馈后拆解修改任务。 |
-| 熊 | 镜头生成；甲方沟通；同步反馈、素材和资产审核意见。 |
-| Esdeath | 后期剪辑合成。 |
-
-## GitHub 权限说明
-
-当前已通过网页登录状态创建 GitHub Issues，用于追踪具体任务。  
-GitHub Connector 创建 Issue 仍返回 `Resource not accessible by integration`，说明 App/API 写权限仍不完整；目前可用网页登录方式维护 Issue，SSH 推送仓库文件正常。
-
-## 当前已启用的 Project 自动化
-
-- `Auto-add to project`：已开启，过滤器为 `is:issue is:open`。
-- `Item added to project`：已开启，新项目自动进入 `待开始`。
-- `Item closed`：已开启，Issue 关闭后自动进入 `已完成`。
-- 更细的 `待确认`、`待审核`、`修改中` 状态暂时由 Issue 内容/标签表达，并由 Codex 在更新任务后做看板校验。
-
-## 当前统一列名
-
-GitHub Project Board 当前统一使用中文列名：
-
-`待开始`、`进行中`、`已完成`、`待审核`、`修改中`、`归档`。
-
-原英文列 `To-do`、`Working`、`Done` 已分别改为 `待开始`、`进行中`、`已完成`；空的重复列 `完成` 已删除。
+| [#82](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/82) | T 引子标题动画 | 4 | 重做 | 修改中、镜头生成 |
+| [#83](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/83) | S Sc01商场+庭院 | 8 | 重做 | 修改中、镜头生成 |
+| [#84](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/84) | A 闯入与误踢 | 5 | 重做 | 修改中、镜头生成、待确认 |
+| [#85](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/85) | B 召唤情公主与分角色 | 6 | 重做 | 修改中、镜头生成、待确认 |
+| [#86](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/86) | C1 章鱼餐厅开张 | 3 | 重点修改 | 修改中、镜头生成 |
+| [#87](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/87) | C2 偷吃糖与笑场 | 3 | 重做 | 修改中、镜头生成 |
+| [#88](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/88) | D 二次误踢与察觉 | 5 | 重做 | 修改中、镜头生成、待确认 |
+| [#89](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/89) | E 施法看内心戏 | 6 | 重做 | 修改中、镜头生成 |
+| [#90](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/90) | F 发现其他旧玩具 | 6 | 重做 | 修改中、镜头生成、待确认 |
+| [#91](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/91) | G1 旧星星与群像开口 | 3 | 重点修改 | 修改中、镜头生成 |
+| [#92](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/92) | G2 思思道歉与情公主�
