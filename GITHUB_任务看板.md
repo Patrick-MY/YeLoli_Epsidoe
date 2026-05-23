@@ -14,11 +14,11 @@
 
 | 状态 | 任务 | 负责人 | 说明 | 完成标准 |
 |---|---|---|---|---|
-| Done | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 2026-05-23 已收到一审反馈，已整理为一审总反馈文档。 | 甲方反馈已收到，并同步给项目负责人。 |
+| 已完成 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 2026-05-23 已收到一审反馈，已整理为一审总反馈文档。 | 甲方反馈已收到，并同步给项目负责人。 |
 | 待审核 / 待甲方提供 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分；收到或制作完成后需提交甲方审核。 | 资产收到并放入项目资产目录，且甲方审核通过。 |
-| Done | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 已根据一审总反馈，把意见拆到第 8 集 85 个 cut：59 个待修，26 个待确认。 | 单集镜头表、项目总表、TODO 均完成更新。 |
-| To-do，依赖 #8 / #3 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 等甲方确认问题与关键资产状态明确后开始。 | 所有待修镜头状态更新为通过或待合成。 |
-| To-do，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
+| 已完成 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 已根据一审总反馈，把意见拆到第 8 集 85 个 cut：59 个待修，26 个待确认。 | 单集镜头表、项目总表、TODO 均完成更新。 |
+| 待开始，依赖 #8 / #3 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 等甲方确认问题与关键资产状态明确后开始。 | 所有待修镜头状态更新为通过或待合成。 |
+| 待开始，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
 | 待审核 / 待确认 | [#8 一审待甲方确认问题同步](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/8) | 熊 | 26 个待确认 cut 已整理为问题表，等待熊同步甲方并回传结果。 | 收到甲方明确答复，并写回镜头制作进度表。 |
 
 ## 看板维护规则
@@ -46,6 +46,14 @@ GitHub Connector 创建 Issue 仍返回 `Resource not accessible by integration`
 ## 当前已启用的 Project 自动化
 
 - `Auto-add to project`：已开启，过滤器为 `is:issue is:open`。
-- `Item added to project`：已开启，新项目自动进入 `To-do`。
-- `Item closed`：已开启，Issue 关闭后自动进入 `Done`。
+- `Item added to project`：已开启，新项目自动进入 `待开始`。
+- `Item closed`：已开启，Issue 关闭后自动进入 `已完成`。
 - 更细的 `待确认`、`待审核`、`修改中` 状态暂时由 Issue 内容/标签表达，并由 Codex 在更新任务后做看板校验。
+
+## 当前统一列名
+
+GitHub Project Board 当前统一使用中文列名：
+
+`待开始`、`进行中`、`已完成`、`待审核`、`修改中`、`归档`。
+
+原英文列 `To-do`、`Working`、`Done` 已分别改为 `待开始`、`进行中`、`已完成`；空的重复列 `完成` 已删除。
