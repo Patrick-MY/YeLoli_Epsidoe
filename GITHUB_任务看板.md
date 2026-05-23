@@ -1,22 +1,33 @@
 # 《叶罗丽好朋友》GitHub 任务看板
 
 用途：在 GitHub 仓库中追踪项目任务、负责人、状态和下一步。  
-当前重点：第 8 集测试集《旧玩具也想我》。
+维护原则：**Codex 只维护 Issue，GitHub Project Board 自动展示 Issue 状态**。详细规则见 [GITHUB_看板维护方案.md](E:/Work/叶罗丽/叶罗丽好朋友/GITHUB_看板维护方案.md)。
+
+当前重点：第 8 集测试集《旧玩具也想我》一审反馈后的确认与返修。
 
 ## 当前状态总览
 
 第 8 集全片初版已经完成，并已收到 2026-05-23 甲方一审反馈。  
-当前核心状态是：**一审反馈待拆解**。拆解完成后，进入返修镜头生成、资产返修和修改版剪辑合成。
+一审反馈已拆解到镜头级：59 个 cut 为 `反馈后待修`，26 个 cut 为 `待确认`。当前核心状态是：**等待熊同步甲方确认问题，并等待旧玩具单体资产**。
 
 ## 看板状态
 
 | 状态 | 任务 | 负责人 | 说明 | 完成标准 |
 |---|---|---|---|---|
-| 已收到反馈 | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 2026-05-23 已收到一审反馈，已整理为一审总反馈文档。 | 甲方反馈已收到，并同步给项目负责人。 |
-| 等待甲方 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分；收到或制作完成后需提交甲方审核。 | 资产收到并放入项目资产目录，且甲方审核通过。 |
-| 待拆解 | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 根据一审总反馈，把意见拆到第 8 集 85 个 cut 的具体镜头，并同步资产返修和待确认问题。 | 单集镜头表、项目总表、TODO 均完成更新。 |
-| 未开始，依赖 #5 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 只有完成反馈拆解并分配镜头后才开始。 | 所有待修镜头状态更新为通过或待合成。 |
-| 未开始，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
+| Done | [#2 第 8 集全片初版反馈](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/2) | 熊 | 2026-05-23 已收到一审反馈，已整理为一审总反馈文档。 | 甲方反馈已收到，并同步给项目负责人。 |
+| 待审核 / 待甲方提供 | [#3 旧玩具单体资产](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/3) | 熊 | 小熊、小兔、布娃娃等旧玩具单体资产等待甲方提供，不自行拆分；收到或制作完成后需提交甲方审核。 | 资产收到并放入项目资产目录，且甲方审核通过。 |
+| Done | [#5 逐镜头修改任务拆解](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/5) | 我 | 已根据一审总反馈，把意见拆到第 8 集 85 个 cut：59 个待修，26 个待确认。 | 单集镜头表、项目总表、TODO 均完成更新。 |
+| To-do，依赖 #8 / #3 | [#6 修改版镜头生成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/6) | 我 / 熊 | 等甲方确认问题与关键资产状态明确后开始。 | 所有待修镜头状态更新为通过或待合成。 |
+| To-do，依赖 #6 | [#7 修改版剪辑合成](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/7) | Esdeath | 只有修改镜头完成后才进入后期剪辑合成。 | 修改版成片输出完成。 |
+| 待审核 / 待确认 | [#8 一审待甲方确认问题同步](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/8) | 熊 | 26 个待确认 cut 已整理为问题表，等待熊同步甲方并回传结果。 | 收到甲方明确答复，并写回镜头制作进度表。 |
+
+## 看板维护规则
+
+- 新任务优先建 GitHub Issue，不直接手动拖 Project Board。
+- Project Board 只作为 Issue 状态的展示层。
+- 不需要制作的资产不放入看板，只记录在 [资产设定表.md](E:/Work/叶罗丽/叶罗丽好朋友/资产设定表.md)。
+- 甲方提供资料只保存在本地 `0.甲方提供资料/`，不得上传 GitHub。
+- 每次更新进度后，需要同步更新本文件、`PROJECT_PROGRESS.md` 和相关制作表。
 
 ## 角色分工
 
@@ -30,4 +41,11 @@
 ## GitHub 权限说明
 
 当前已通过网页登录状态创建 GitHub Issues，用于追踪具体任务。  
-GitHub App 仍未安装到账号/仓库，因此 API 方式创建 Issues/Projects 暂不可用。
+GitHub Connector 创建 Issue 仍返回 `Resource not accessible by integration`，说明 App/API 写权限仍不完整；目前可用网页登录方式维护 Issue，SSH 推送仓库文件正常。
+
+## 当前已启用的 Project 自动化
+
+- `Auto-add to project`：已开启，过滤器为 `is:issue is:open`。
+- `Item added to project`：已开启，新项目自动进入 `To-do`。
+- `Item closed`：已开启，Issue 关闭后自动进入 `Done`。
+- 更细的 `待确认`、`待审核`、`修改中` 状态暂时由 Issue 内容/标签表达，并由 Codex 在更新任务后做看板校验。
