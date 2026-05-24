@@ -7,40 +7,49 @@
 
 ## 当前状态总览
 
-第 8 集全片初版已经完成，并已收到 2026-05-23 甲方一审反馈。  
-一审反馈已拆解到镜头级：59 个 cut 为 `反馈后待修`，26 个 cut 为 `待确认`。
+第 8 集新版十分钟大纲已发布（53 段，约 220+ 镜头），替代旧版 19 段结构。旧段 Issue #82-#100 已关闭。
+2026-05-24 甲方审核通过 10 个资产，2 个资产修改中（#80 旧玩具、#101 商场）。
+53 段提示词已就绪（`5.分镜头提示词/EP08_修改/`），可开始逐段生成。
 
-2026-05-24 已通过 GitHub API 批量创建 **33 个 Issue**（#68-#100），覆盖第 8 集所有待办资产和段落返修任务。旧 Issue #2-#8 中，#2/#5 已完成，#3/#6 已被新 Issue 覆盖，待关闭。
+## 资产 Issue
 
-## 14 个资产 Issue（#68-#81）
+### 甲方审核通过（已完成）
 
-| Issue | 资产 | 状态 | 标签 |
+| Issue | 资产 | 状态 |
+|---|---|---|
+| [#68](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/68) | 时钟女孩角色设定（CHAR-006） | ✅ 已完成 |
+| [#69](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/69) | 紫色章鱼毛绒玩具（PROP-001） | ✅ 已完成 |
+| [#70](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/70) | 白色独角兽毛绒玩具（PROP-002） | ✅ 已完成 |
+| [#71](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/71) | 旧星星宝匣（PROP-003） | ✅ 已完成 |
+| [#75](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/75) | 思思家庭院设定（SCN-007） | ✅ 已完成 |
+| [#76](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/76) | 糖设定（PROP-006） | ✅ 已完成 |
+| [#77](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/77) | 孔雀镜子多角度设定（PROP-008） | ✅ 已完成 |
+| [#78](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/78) | 灵公主娃娃设定（PROP-014） | ✅ 已完成 |
+| [#79](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/79) | 孔雀法杖设定（PROP-015） | ✅ 已完成 |
+| [#81](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/81) | 时钟女孩手表设定（PROP-024） | ✅ 已完成 |
+
+### 修改中
+
+| Issue | 资产 | 修改要求 | 标签 |
 |---|---|---|---|
-| [#68](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/68) | 时钟女孩角色设定（CHAR-006） | 待甲方审核 | 资产、待审核 |
-| [#69](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/69) | 紫色章鱼毛绒玩具（PROP-001） | 待甲方审核 | 资产、待审核 |
-| [#70](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/70) | 白色独角兽毛绒玩具（PROP-002） | 待甲方审核 | 资产、待审核 |
-| [#71](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/71) | 旧星星宝匣（PROP-003） | 待甲方审核 | 资产、待审核 |
-| [#101](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/101) | 商场场景全局设定（SCN-001/002/003） | 待甲方审核 | 资产、待审核 |
-| [#75](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/75) | 思思家庭院设定（SCN-007） | 待制作/待甲方审核 | 资产、进行中 |
-| [#76](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/76) | 糖设定（PROP-006） | 待甲方审核 | 资产、待审核 |
-| [#77](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/77) | 孔雀镜子多角度设定（PROP-008） | 待甲方审核 | 资产、待审核 |
-| [#78](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/78) | 灵公主娃娃设定（PROP-014） | 待甲方审核 | 资产、待审核 |
-| [#79](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/79) | 孔雀法杖设定（PROP-015） | 待甲方审核 | 资产、待审核 |
-| [#80](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/80) | 旧玩具单体：小熊、小兔、布娃娃（PROP-020） | 待制作/待甲方审核 | 资产、进行中 |
-| [#81](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/81) | 时钟女孩手表设定（PROP-024） | 待甲方审核 | 资产、待审核 |
+| [#80](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/80) | 旧玩具单体：小熊、小兔、布娃娃（PROP-020） | 不要做得太脏 | 资产、修改中 |
+| [#101](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/101) | 商场场景全局设定（SCN-001/002/003） | 中间摆设和货架摆设需要改 | 资产、修改中 |
 
-## 19 个段落返修 Issue（#82-#100）
+## 53 段镜头返修 Issue（#102-#154）— 新版十分钟大纲
 
-| Issue | 段落 | Cuts | 修改等级 | 标签 |
-|---|---|---|---|---|
-| [#82](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/82) | T 引子标题动画 | 4 | 重做 | 修改中、镜头生成 |
-| [#83](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/83) | S Sc01商场+庭院 | 8 | 重做 | 修改中、镜头生成 |
-| [#84](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/84) | A 闯入与误踢 | 5 | 重做 | 修改中、镜头生成、待确认 |
-| [#85](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/85) | B 召唤情公主与分角色 | 6 | 重做 | 修改中、镜头生成、待确认 |
-| [#86](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/86) | C1 章鱼餐厅开张 | 3 | 重点修改 | 修改中、镜头生成 |
-| [#87](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/87) | C2 偷吃糖与笑场 | 3 | 重做 | 修改中、镜头生成 |
-| [#88](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/88) | D 二次误踢与察觉 | 5 | 重做 | 修改中、镜头生成、待确认 |
-| [#89](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/89) | E 施法看内心戏 | 6 | 重做 | 修改中、镜头生成 |
-| [#90](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/90) | F 发现其他旧玩具 | 6 | 重做 | 修改中、镜头生成、待确认 |
-| [#91](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/91) | G1 旧星星与群像开口 | 3 | 重点修改 | 修改中、镜头生成 |
-| [#92](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/92) | G2 思思道歉与情公主�
+| 段 | Issue | 主题 | 部分 |
+|---|---|---|---|
+| 01 | [#102](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/102) | 黑场亮起·旧星星孤独登场 | 片头标题 |
+| 02 | [#103](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/103) | 标题字浮现·旧星星与字同框 | 片头标题 |
+| 03 | [#104](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/104) | 新玩具冲入·挤压扁星星 | 片头标题 |
+| 04 | [#105](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/105) | 商场入口·思思牵妈妈手蹦跳 | 商场 |
+| 05 | [#106](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/106) | 思思左顾右盼·拉着妈妈说你看 | 商场 |
+| 06 | [#107](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/107) | 妈妈说只能选两个·思思若有所思 | 商场 |
+| 07 | [#108](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/108) | 思思认真挑选·货架前来回踱步 | 商场 |
+| 08 | [#109](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/109) | 妈妈递玩具·思思双手接过 | 商场 |
+| 09 | [#110](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/110) | 思思举高玩具·满足陶醉 | 商场 |
+| 10 | [#111](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/111) | 妈妈摸思思头·笑脸转场 | 商场 |
+| 11 | [#112](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/112) | 思思冲入花园·阳光鲜花 | 花园 |
+| 12 | [#113](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/113) | 草地坐下·举起章鱼逆光剪影 | 花园 |
+| 13 | [#114](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/114) | 章鱼独角兽对话·思思配音 | 花园 |
+| 14 | [#115](https://github.com/Patrick-MY/YeLoli_Epsidoe/issues/115) | 虚拟�
