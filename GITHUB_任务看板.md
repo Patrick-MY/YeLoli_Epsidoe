@@ -8,8 +8,8 @@
 ## 当前状态总览
 
 第 8 集新版十分钟大纲已发布（53 段，约 220+ 镜头），替代旧版 19 段结构。旧段 Issue #82-#100 已关闭。
-2026-05-24 甲方审核通过 10 个资产，2 个资产修改中（#80 旧玩具、#101 商场）。
-53 段提示词已就绪（`5.分镜头提示词/EP08_修改/`），可开始逐段生成。
+2026-05-25 甲方审核通过最后 2 个资产（#80 旧玩具、#101 商场），资产设定阶段收尾完成：12 个资产全部通过。
+53 段提示词已就绪（`05_分镜头提示词/EP08_修改/`），已启动逐段生成。
 
 ## 资产 Issue
 
@@ -28,12 +28,12 @@
 | [#79](https://github.com/Patrick-MY/YeLoli_Episode/issues/79) | 孔雀法杖设定（PROP-015） | ✅ 已完成 |
 | [#81](https://github.com/Patrick-MY/YeLoli_Episode/issues/81) | 时钟女孩手表设定（PROP-024） | ✅ 已完成 |
 
-### 修改中
+### 甲方审核通过（2026-05-25 新增）
 
-| Issue | 资产 | 修改要求 | 标签 |
-|---|---|---|---|
-| [#80](https://github.com/Patrick-MY/YeLoli_Episode/issues/80) | 旧玩具单体：小熊、小兔、布娃娃（PROP-020） | 不要做得太脏 | 资产、修改中 |
-| [#101](https://github.com/Patrick-MY/YeLoli_Episode/issues/101) | 商场场景全局设定（SCN-001/002/003） | 中间摆设和货架摆设需要改 | 资产、修改中 |
+| Issue | 资产 | 状态 |
+|---|---|---|
+| [#80](https://github.com/Patrick-MY/YeLoli_Episode/issues/80) | 旧玩具单体：小熊、小兔、布娃娃（PROP-020） | ✅ 已完成 |
+| [#101](https://github.com/Patrick-MY/YeLoli_Episode/issues/101) | 商场场景全局设定（SCN-001/002/003） | ✅ 已完成 |
 
 ## 53 段镜头返修 Issue（#102-#154）— 新版十分钟大纲
 
@@ -121,7 +121,7 @@
 - 新任务优先建 GitHub Issue，不直接手动拖 Project Board。
 - Project Board 只作为 Issue 状态的展示层。
 - 不需要制作的资产不放入看板，只记录在 [资产设定表.md](E:/Work/叶罗丽/叶罗丽好朋友/资产设定表.md)。
-- 甲方提供资料只保存在本地 `0.甲方提供资料/`，不得上传 GitHub。
+- 甲方提供资料只保存在本地 `00_甲方提供资料/`，不得上传 GitHub。
 - 每次更新进度后，需要同步更新本文件、`PROJECT_PROGRESS.md` 和相关制作表。
 
 ## 角色分工

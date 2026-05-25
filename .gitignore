@@ -3,7 +3,10 @@
 .playwright-mcp/
 
 # Client-provided source materials and feedback assets stay local.
-0.甲方提供资料/
+00_甲方提供资料/
+
+# Archive (historical files, not for version control)
+99_归档/
 
 # Generated/system clutter
 Thumbs.db
