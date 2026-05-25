@@ -1,4 +1,4 @@
-# YeLoli_Epsidoe
+# YeLoli_Episode
 YeLoli Episode Board
 
 ## 项目入口

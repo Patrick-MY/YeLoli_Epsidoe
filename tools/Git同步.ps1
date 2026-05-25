@@ -82,4 +82,4 @@ Write-Host "Pushing..." -ForegroundColor Gray
 git push origin main
 
 Write-Host "=== 同步完成 ===" -ForegroundColor Green
-Write-Host "远端: https://github.com/Patrick-MY/YeLoli_Epsidoe"
+Write-Host "远端: https://github.com/Patrick-MY/YeLoli_Episode"

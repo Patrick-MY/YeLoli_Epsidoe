@@ -9,7 +9,7 @@ if (!TOKEN) {
 }
 
 const OWNER = 'Patrick-MY';
-const REPO = 'YeLoli_Epsidoe';
+const REPO = 'YeLoli_Episode';
 const API = 'https://api.github.com/repos/' + OWNER + '/' + REPO;
 
 async function api(method, path, body) {
