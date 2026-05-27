@@ -20,7 +20,7 @@
 | [#68](https://github.com/Patrick-MY/YeLoli_Episode/issues/68) | 时钟女孩角色设定（CHAR-006） | ✅ 已完成 |
 | [#69](https://github.com/Patrick-MY/YeLoli_Episode/issues/69) | 紫色章鱼毛绒玩具（PROP-001） | ✅ 已完成 |
 | [#70](https://github.com/Patrick-MY/YeLoli_Episode/issues/70) | 白色独角兽毛绒玩具（PROP-002） | ✅ 已完成 |
-| [#71](https://github.com/Patrick-MY/YeLoli_Episode/issues/71) | 旧星星宝匣（PROP-003） | ✅ 已完成 |
+| [#71](https://github.com/Patrick-MY/YeLoli_Episode/issues/71) | 星星宝匣宝匣（PROP-003） | ✅ 已完成 |
 | [#75](https://github.com/Patrick-MY/YeLoli_Episode/issues/75) | 思思家庭院设定（SCN-007） | ✅ 已完成 |
 | [#76](https://github.com/Patrick-MY/YeLoli_Episode/issues/76) | 糖设定（PROP-006） | ✅ 已完成 |
 | [#77](https://github.com/Patrick-MY/YeLoli_Episode/issues/77) | 孔雀镜子多角度设定（PROP-008） | ✅ 已完成 |
@@ -39,8 +39,8 @@
 
 | 段 | Issue | 主题 | 部分 |
 |---|---|---|---|
-| 01 | [#102](https://github.com/Patrick-MY/YeLoli_Episode/issues/102) | 黑场亮起·旧星星孤独登场 | 片头标题 |
-| 02 | [#103](https://github.com/Patrick-MY/YeLoli_Episode/issues/103) | 标题字浮现·旧星星与字同框 | 片头标题 |
+| 01 | [#102](https://github.com/Patrick-MY/YeLoli_Episode/issues/102) | 黑场亮起·星星宝匣孤独登场 | 片头标题 |
+| 02 | [#103](https://github.com/Patrick-MY/YeLoli_Episode/issues/103) | 标题字浮现·星星宝匣与字同框 | 片头标题 |
 | 03 | [#104](https://github.com/Patrick-MY/YeLoli_Episode/issues/104) | 新玩具冲入·挤压扁星星 | 片头标题 |
 | 04 | [#105](https://github.com/Patrick-MY/YeLoli_Episode/issues/105) | 商场入口·思思牵妈妈手蹦跳 | 商场 |
 | 05 | [#106](https://github.com/Patrick-MY/YeLoli_Episode/issues/106) | 思思左顾右盼·拉着妈妈说你看 | 商场 |
@@ -56,25 +56,25 @@
 | 15 | [#116](https://github.com/Patrick-MY/YeLoli_Episode/issues/116) | 思思哈哈大笑·抱玩具转圈 | 花园 |
 | 16 | [#117](https://github.com/Patrick-MY/YeLoli_Episode/issues/117) | 灵光一现·想到跟好朋友玩 | 花园 |
 | 17 | [#118](https://github.com/Patrick-MY/YeLoli_Episode/issues/118) | 抱玩具跑回房间·转场 | 花园 |
-| 18 | [#119](https://github.com/Patrick-MY/YeLoli_Episode/issues/119) | 冲进房间·脚尖踢到旧星星 | 卧室开场 |
-| 19 | [#120](https://github.com/Patrick-MY/YeLoli_Episode/issues/120) | 旧星星泪光出现·思思摆好新玩具 | 卧室开场 |
+| 18 | [#119](https://github.com/Patrick-MY/YeLoli_Episode/issues/119) | 冲进房间·脚尖踢到星星宝匣 | 卧室开场 |
+| 19 | [#120](https://github.com/Patrick-MY/YeLoli_Episode/issues/120) | 星星宝匣泪光出现·思思摆好新玩具 | 卧室开场 |
 | 20 | [#121](https://github.com/Patrick-MY/YeLoli_Episode/issues/121) | 思思宣布过家家·召唤情公主 | 卧室开场 |
 | 21 | [#122](https://github.com/Patrick-MY/YeLoli_Episode/issues/122) | 情公主绚丽出场 | 卧室开场 |
 | 22 | [#123](https://github.com/Patrick-MY/YeLoli_Episode/issues/123) | 情公主开口·思思塞独角兽 | 卧室开场 |
 | 23 | [#124](https://github.com/Patrick-MY/YeLoli_Episode/issues/124) | 思思抱章鱼宣布开演 | 卧室开场 |
 | 24 | [#125](https://github.com/Patrick-MY/YeLoli_Episode/issues/125) | 章鱼餐厅开张·思思情公主变腔 | 章鱼餐厅 |
 | 25 | [#126](https://github.com/Patrick-MY/YeLoli_Episode/issues/126) | 情公主偷糖·被发现笑场 | 章鱼餐厅 |
-| 26 | [#127](https://github.com/Patrick-MY/YeLoli_Episode/issues/127) | 二次误踢旧星星·滚到情公主脚边 | 章鱼餐厅 |
-| 27 | [#128](https://github.com/Patrick-MY/YeLoli_Episode/issues/128) | 情公主察觉·拿起旧星星额头感知 | 察觉与心象 |
+| 26 | [#127](https://github.com/Patrick-MY/YeLoli_Episode/issues/127) | 二次误踢星星宝匣·滚到情公主脚边 | 章鱼餐厅 |
+| 27 | [#128](https://github.com/Patrick-MY/YeLoli_Episode/issues/128) | 情公主察觉·拿起星星宝匣额头感知 | 察觉与心象 |
 | 28 | [#129](https://github.com/Patrick-MY/YeLoli_Episode/issues/129) | 思思凑过去·看见泪光 | 察觉与心象 |
 | 29 | [#130](https://github.com/Patrick-MY/YeLoli_Episode/issues/130) | 情公主看向另一边·发现旧玩具群 | 察觉与心象 |
 | 30 | [#131](https://github.com/Patrick-MY/YeLoli_Episode/issues/131) | 思思走过去摸抱旧玩具 | 察觉与心象 |
 | 31 | [#132](https://github.com/Patrick-MY/YeLoli_Episode/issues/132) | 情公主大施法·心象闪回 | 察觉与心象 |
-| 32 | [#133](https://github.com/Patrick-MY/YeLoli_Episode/issues/133) | 旧星星拟人化开口 | 道歉和解 |
-| 33 | [#134](https://github.com/Patrick-MY/YeLoli_Episode/issues/134) | 思思蹲下反驳·旧星星抬头 | 道歉和解 |
+| 32 | [#133](https://github.com/Patrick-MY/YeLoli_Episode/issues/133) | 星星宝匣拟人化开口 | 道歉和解 |
+| 33 | [#134](https://github.com/Patrick-MY/YeLoli_Episode/issues/134) | 思思蹲下反驳·星星宝匣抬头 | 道歉和解 |
 | 34 | [#135](https://github.com/Patrick-MY/YeLoli_Episode/issues/135) | 情公主从全景走进·温柔点拨 | 道歉和解 |
-| 35 | [#136](https://github.com/Patrick-MY/YeLoli_Episode/issues/136) | 思思紧抱旧星星道歉 | 道歉和解 |
-| 36 | [#137](https://github.com/Patrick-MY/YeLoli_Episode/issues/137) | 旧星星疑问·思思承诺 | 道歉和解 |
+| 35 | [#136](https://github.com/Patrick-MY/YeLoli_Episode/issues/136) | 思思紧抱星星宝匣道歉 | 道歉和解 |
+| 36 | [#137](https://github.com/Patrick-MY/YeLoli_Episode/issues/137) | 星星宝匣疑问·思思承诺 | 道歉和解 |
 | 37 | [#138](https://github.com/Patrick-MY/YeLoli_Episode/issues/138) | 思思灵光一现·想到办法 | 道歉和解 |
 | 38 | [#139](https://github.com/Patrick-MY/YeLoli_Episode/issues/139) | 思思召唤三仙子·念咒 | 大召唤与茶会 |
 | 39 | [#140](https://github.com/Patrick-MY/YeLoli_Episode/issues/140) | 灵公主出场·床上花瓣式登场 | 大召唤与茶会 |
@@ -82,11 +82,11 @@
 | 41 | [#142](https://github.com/Patrick-MY/YeLoli_Episode/issues/142) | 时钟女孩出场·小房子门开飞行 | 大召唤与茶会 |
 | 42 | [#143](https://github.com/Patrick-MY/YeLoli_Episode/issues/143) | 情公主拍手·孔雀发言 | 大召唤与茶会 |
 | 43 | [#144](https://github.com/Patrick-MY/YeLoli_Episode/issues/144) | 思思跑回地毯·重新分角色 | 大召唤与茶会 |
-| 44 | [#145](https://github.com/Patrick-MY/YeLoli_Episode/issues/145) | 旧星星呆萌·思思举高 | 大召唤与茶会 |
+| 44 | [#145](https://github.com/Patrick-MY/YeLoli_Episode/issues/145) | 星星宝匣呆萌·思思举高 | 大召唤与茶会 |
 | 45 | [#146](https://github.com/Patrick-MY/YeLoli_Episode/issues/146) | 大家围圈茶会开场 | 大召唤与茶会 |
-| 46 | [#147](https://github.com/Patrick-MY/YeLoli_Episode/issues/147) | 思思学旧星星说话·变腔变调 | 大召唤与茶会 |
+| 46 | [#147](https://github.com/Patrick-MY/YeLoli_Episode/issues/147) | 思思学星星宝匣说话·变腔变调 | 大召唤与茶会 |
 | 47 | [#148](https://github.com/Patrick-MY/YeLoli_Episode/issues/148) | 情公主偷糖·时钟女孩抢糖追逐 | 大召唤与茶会 |
-| 48 | [#149](https://github.com/Patrick-MY/YeLoli_Episode/issues/149) | 旧星星暖金光治愈·思思贴贴 | 大召唤与茶会 |
+| 48 | [#149](https://github.com/Patrick-MY/YeLoli_Episode/issues/149) | 星星宝匣暖金光治愈·思思贴贴 | 大召唤与茶会 |
 | 49 | [#150](https://github.com/Patrick-MY/YeLoli_Episode/issues/150) | 叶罗丽小课堂开场 | 小课堂与儿歌 |
 | 50 | [#151](https://github.com/Patrick-MY/YeLoli_Episode/issues/151) | 小提示弹出·情公主补充 | 小课堂与儿歌 |
 | 51 | [#152](https://github.com/Patrick-MY/YeLoli_Episode/issues/152) | 思思示范·跟我一起说 | 小课堂与儿歌 |
